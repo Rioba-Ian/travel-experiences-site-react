@@ -1,13 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.navbar {
+  width: auto;
+  height: 90px;
+  background: #F55A5A;
+  margin-top: -1rem;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+
+}
+
+.world-img {
+  height: 30px;
+  width: 30px;
+  margin-right: 5px;
+}
+
+.header-text {
+  color: #fff;
+  /* padding: 10px 10px; */
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18px;
+  letter-spacing: -0.075em;
+}
+
+
+.img-header {
+  height: 20px;
+}
+
+/* main section */
+
+
+.main-content {
+  display: flex;
+  flex-direction: row;
+  margin: 40px 40px 40px 40px;
+}
+
+.container {
+  width: 600px;
+  height: 300px;
+  /* background-color: #F55A5A; */
+  display: flex;
+  flex-direction: row;
+}
+
+.image-card {
+  margin-right: auto;
+  height: 300px;
+  width: 200px;
+  border-radius: 5px;
+  margin-right: 8px;
+}
+
+.container-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-right: 5px;
+}
+
+.maps-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: auto;
+  margin-left: 2px;
+}
+
+.map-logo {
+  height: 15px;
+}
+
+.card-inner-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.span-spacing {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.location {
+  text-decoration: underline;
 }
