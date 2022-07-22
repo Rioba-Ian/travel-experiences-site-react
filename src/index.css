@@ -12,24 +12,22 @@ code {
 }
 
 .navbar {
-  width: auto;
   height: 90px;
+  width: auto;
   background: #F55A5A;
   margin-top: -1rem;
 }
 
 .header {
   display: flex;
-  flex-direction: row;
   justify-content: center;
   align-items: center;
   padding: 30px;
-
 }
 
 .world-img {
-  height: 30px;
-  width: 30px;
+  height: 25px;
+  width: 25px;
   margin-right: 5px;
 }
 
@@ -38,7 +36,7 @@ code {
   /* padding: 10px 10px; */
   font-style: normal;
   font-weight: 500;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 18px;
   letter-spacing: -0.075em;
 }
@@ -52,25 +50,25 @@ code {
 
 
 .main-content {
-  display: flex;
-  flex-direction: row;
+  /* display: flex;
+  flex-direction: row; */
   margin: 40px 40px 40px 40px;
 }
 
 .container {
-  width: 600px;
-  height: 300px;
+  width: 450px;
+  height: 180px;
   /* background-color: #F55A5A; */
   display: flex;
   flex-direction: row;
 }
 
 .image-card {
-  margin-right: auto;
-  height: 300px;
-  width: 200px;
+  height: 180px;
+  width: 130px;
   border-radius: 5px;
   margin-right: 8px;
+  object-fit: cover;
 }
 
 .container-content {
@@ -78,7 +76,10 @@ code {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-right: 5px;
+  height: 140px;
+  width: 330px;
+  margin-top: 5%;
+
 }
 
 .maps-content {
@@ -96,6 +97,8 @@ code {
 .card-inner-content {
   display: flex;
   flex-direction: column;
+  height: 150px;
+  width: 320px;
 }
 
 .span-spacing {
@@ -105,4 +108,58 @@ code {
 
 .location {
   text-decoration: underline;
+  font-weight: 400;
+  color: #918E9B;
 }
+
+.place {
+  margin-top: 0px;
+  font-size: 22px;
+}
+
+.maps-content {
+  font-size: 12px;
+}
+
+.date-content {
+  font-size: 10px;
+  font-weight: 700;
+}
+
+.description {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #2B283A;
+
+}
+
+@media screen and (min-width: 768px) {
+  .cards-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+
+  .container {
+    width: 25vw;
+    height: 40vh;
+  }
+}
+
+/* 
+@media screen and (min-width: 992px) {
+  .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+} */

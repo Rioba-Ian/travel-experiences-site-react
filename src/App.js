@@ -2,9 +2,10 @@ import Navbar from "./components/Navbar";
 import TravelCard from "./components/TravelCard";
 import travelData from "./data/travelData"
 
-function App(props) {
+function App() {
   const travelElements = travelData.map(travel => {
     return <TravelCard
+      key={travel.id}
       title={travel.title}
       location={travel.location}
       MapsUrl={travel.googleMapsUrl}
@@ -17,9 +18,11 @@ function App(props) {
   })
 
   return (
-    <div className="App">
+    <div>
       <Navbar />
-      {travelElements}
+      <section className="cards-list">
+        {travelElements}
+      </section>
     </div>
   );
 }
