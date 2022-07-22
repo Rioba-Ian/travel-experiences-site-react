@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/travel-experiences-site-react/static/css/main.d1f69d0b.css",
+    "main.css": "/travel-experiences-site-react/static/css/main.354e61cf.css",
     "main.js": "/travel-experiences-site-react/static/js/main.fed19612.js",
     "index.html": "/travel-experiences-site-react/index.html",
-    "main.d1f69d0b.css.map": "/travel-experiences-site-react/static/css/main.d1f69d0b.css.map",
+    "main.354e61cf.css.map": "/travel-experiences-site-react/static/css/main.354e61cf.css.map",
     "main.fed19612.js.map": "/travel-experiences-site-react/static/js/main.fed19612.js.map"
   },
   "entrypoints": [
-    "static/css/main.d1f69d0b.css",
+    "static/css/main.354e61cf.css",
     "static/js/main.fed19612.js"
   ]
 }
